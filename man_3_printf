@@ -7,9 +7,10 @@ _printf - prints data and also it formats data.
 .B "PRINTF"
 .SH DESCRIPTION
 
-The printf() function formats and prints a series of characters and values. Format specifications, beginning with a percent sign (%), determine the output format for any argument-list following the format-string.
+printf -formats and prints a series of characters and values.
+       -format specifications, beginning with a percent sign (%), determine the output format for any argument-list following the format-string.
 
-_printf will take variable arguments.
+_printf will also take variable arguments.
 
 Example:
 _printf("%s", text);
@@ -32,4 +33,8 @@ the above syntax is saying "print the value of text as %s gives the format of te
 - prints integer number.
 
 .SH AUTHOR
+Name:
 Nazrawi Medhin
+
+Email:
+nazrawimedhin1@gmail.com
